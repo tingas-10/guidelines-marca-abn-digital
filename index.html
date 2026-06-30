@@ -32,6 +32,9 @@
     <a href="#ia">IA</a>
     <a href="#descargas" class="nav__cta">Descargas</a>
   </nav>
+  <button class="nav__theme" id="themeToggle" aria-label="Cambiar tema claro/oscuro" title="Cambiar tema">
+    <span class="theme-moon" aria-hidden="true">☾</span><span class="theme-sun" aria-hidden="true">☀</span>
+  </button>
   <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
 </header>
 
@@ -40,7 +43,7 @@
   <div class="hero__bg" aria-hidden="true"></div>
   <div class="hero__inner">
     <span class="eyebrow">Guía de marca · Brand guidelines</span>
-    <img src="assets/logos/logo-principal-dark.png" alt="ABN Digital" class="hero__logo">
+    <img src="assets/logos/logo-principal-dark.png" data-src-dark="assets/logos/logo-principal-dark.png" data-src-light="assets/logos/logo-principal-light.png" alt="ABN Digital" class="hero__logo theme-img">
     <h1 class="hero__claim">Impulsando el<br>crecimiento digital</h1>
     <p class="hero__lead">La identidad de <b>ABN Digital</b> en una sola página: logos, colores, tipografía y elementos gráficos, con todo listo para que cualquiera del equipo arme presentaciones y documentos —en Canva, Gamma, Slides o con IA— respetando la marca.</p>
     <div class="hero__actions">
@@ -382,32 +385,97 @@
       <p class="section__desc">Todos los recursos listos para usar. Los PNG tienen fondo transparente y alta resolución; pesan poco y entran en cualquier plataforma.</p>
     </div>
 
-    <div class="download-grid">
-      <a class="download-card" href="assets/downloads/abn-digital-marca.zip" download>
-        <div class="download-card__icon">⬇</div>
-        <b>Kit completo (.zip)</b>
-        <span>Logos, isotipo, iconos, paleta y fuentes Montserrat.</span>
-      </a>
-      <a class="download-card" href="assets/logos/logo-principal-dark.png" download>
-        <div class="download-card__prev download-card__prev--dark"><img src="assets/logos/logo-principal-dark.png" alt=""></div>
-        <b>Logo principal · oscuro</b><span>PNG transparente</span>
-      </a>
-      <a class="download-card" href="assets/logos/logo-principal-light.png" download>
-        <div class="download-card__prev download-card__prev--light"><img src="assets/logos/logo-principal-light.png" alt=""></div>
-        <b>Logo principal · claro</b><span>PNG transparente</span>
-      </a>
-      <a class="download-card" href="assets/logos/logo-secundario-dark.png" download>
-        <div class="download-card__prev download-card__prev--dark"><img src="assets/logos/logo-secundario-dark.png" alt=""></div>
-        <b>Logo horizontal</b><span>PNG transparente</span>
-      </a>
-      <a class="download-card" href="assets/logos/isotipo-green.png" download>
-        <div class="download-card__prev download-card__prev--dark"><img src="assets/logos/isotipo-green.png" alt="" style="max-height:64px"></div>
-        <b>Isotipo · Tech Green</b><span>PNG + SVG</span>
-      </a>
-      <a class="download-card" href="assets/logos/logo-principal-white.png" download>
-        <div class="download-card__prev download-card__prev--dark"><img src="assets/logos/logo-principal-white.png" alt=""></div>
-        <b>Logo blanco (mono)</b><span>PNG transparente</span>
-      </a>
+    <div class="dl-group">
+      <h3 class="minihead">Kits completos</h3>
+      <div class="download-grid">
+        <a class="download-card" href="assets/downloads/abn-digital-marca.zip" download>
+          <div class="download-card__icon">⬇</div>
+          <b>Kit completo (.zip)</b>
+          <span>Todo: logos, iconos, elementos gráficos, paleta y fuentes Montserrat.</span>
+        </a>
+        <a class="download-card" href="assets/downloads/abn-digital-logos.zip" download>
+          <div class="download-card__icon">⬇</div>
+          <b>Solo logos (.zip)</b>
+          <span>Todas las versiones y combinaciones de logo (PNG + SVG).</span>
+        </a>
+        <a class="download-card" href="assets/downloads/abn-digital-elementos-graficos.zip" download>
+          <div class="download-card__icon">⬇</div>
+          <b>Solo elementos gráficos (.zip)</b>
+          <span>Gradiente, tramas, patrón e iconografía.</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="dl-group">
+      <h3 class="minihead">Logos</h3>
+      <div class="download-grid">
+        <a class="download-card" href="assets/logos/logo-principal-dark.png" download>
+          <div class="download-card__prev download-card__prev--dark"><img src="assets/logos/logo-principal-dark.png" alt=""></div>
+          <b>Principal · fondo oscuro</b><span>PNG transparente</span>
+        </a>
+        <a class="download-card" href="assets/logos/logo-principal-light.png" download>
+          <div class="download-card__prev download-card__prev--light"><img src="assets/logos/logo-principal-light.png" alt=""></div>
+          <b>Principal · fondo claro</b><span>PNG transparente</span>
+        </a>
+        <a class="download-card" href="assets/logos/logo-secundario-dark.png" download>
+          <div class="download-card__prev download-card__prev--dark"><img src="assets/logos/logo-secundario-dark.png" alt=""></div>
+          <b>Horizontal · fondo oscuro</b><span>PNG transparente</span>
+        </a>
+        <a class="download-card" href="assets/logos/logo-secundario-light.png" download>
+          <div class="download-card__prev download-card__prev--light"><img src="assets/logos/logo-secundario-light.png" alt=""></div>
+          <b>Horizontal · fondo claro</b><span>PNG transparente</span>
+        </a>
+        <a class="download-card" href="assets/logos/logo-isologotipo-dark.png" download>
+          <div class="download-card__prev download-card__prev--dark"><img src="assets/logos/logo-isologotipo-dark.png" alt=""></div>
+          <b>Isologotipo · oscuro</b><span>PNG transparente</span>
+        </a>
+        <a class="download-card" href="assets/logos/logo-isologotipo-light.png" download>
+          <div class="download-card__prev download-card__prev--light"><img src="assets/logos/logo-isologotipo-light.png" alt=""></div>
+          <b>Isologotipo · claro</b><span>PNG transparente</span>
+        </a>
+        <a class="download-card" href="assets/logos/isotipo-green.png" download>
+          <div class="download-card__prev download-card__prev--dark"><img src="assets/logos/isotipo-green.png" alt="" style="max-height:64px"></div>
+          <b>Isotipo · Tech Green</b><span>PNG + SVG</span>
+        </a>
+        <a class="download-card" href="assets/logos/logo-principal-white.png" download>
+          <div class="download-card__prev download-card__prev--dark"><img src="assets/logos/logo-principal-white.png" alt=""></div>
+          <b>Blanco (mono)</b><span>PNG transparente</span>
+        </a>
+        <a class="download-card" href="assets/logos/logo-principal-black.png" download>
+          <div class="download-card__prev download-card__prev--light"><img src="assets/logos/logo-principal-black.png" alt=""></div>
+          <b>Negro (mono)</b><span>PNG transparente</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="dl-group">
+      <h3 class="minihead">Elementos gráficos</h3>
+      <div class="download-grid">
+        <a class="download-card" href="assets/graphic/gradiente.png" download>
+          <div class="download-card__prev download-card__prev--dark"><img src="assets/graphic/gradiente.png" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:8px"></div>
+          <b>Gradiente</b><span>PNG + SVG</span>
+        </a>
+        <a class="download-card" href="assets/graphic/trama-1.png" download>
+          <div class="download-card__prev download-card__prev--dark"><img src="assets/graphic/trama-1.png" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:8px"></div>
+          <b>Trama I · flujo de datos</b><span>PNG + SVG</span>
+        </a>
+        <a class="download-card" href="assets/graphic/trama-2.png" download>
+          <div class="download-card__prev download-card__prev--dark"><img src="assets/graphic/trama-2.png" alt="" style="height:80px;width:auto"></div>
+          <b>Trama II · enlace</b><span>PNG + SVG</span>
+        </a>
+        <a class="download-card" href="assets/graphic/patron-isotipo.png" download>
+          <div class="download-card__prev download-card__prev--dark"><img src="assets/graphic/patron-isotipo.png" alt="" style="height:80px;width:auto"></div>
+          <b>Patrón de isotipo</b><span>PNG + SVG</span>
+        </a>
+        <a class="download-card" href="assets/graphic/trama-2-individual.png" download>
+          <div class="download-card__prev download-card__prev--dark"><img src="assets/graphic/trama-2-individual.png" alt="" style="width:100%;height:auto"></div>
+          <b>Trama II · elemento</b><span>PNG</span>
+        </a>
+        <a class="download-card" href="assets/downloads/paleta-abn-digital.txt" download>
+          <div class="download-card__icon">🎨</div>
+          <b>Paleta de color</b><span>HEX + RGB (.txt)</span>
+        </a>
+      </div>
     </div>
   </div>
 </section>
@@ -417,7 +485,7 @@
 <footer class="footer">
   <div class="container footer__inner">
     <div class="footer__brand">
-      <img src="assets/logos/logo-secundario-dark.png" alt="ABN Digital" class="footer__logo">
+      <img src="assets/logos/logo-secundario-dark.png" data-src-dark="assets/logos/logo-secundario-dark.png" data-src-light="assets/logos/logo-secundario-light.png" alt="ABN Digital" class="footer__logo theme-img">
       <p>Guía de marca · uso interno del equipo. El logotipo y la paleta son inalterables.</p>
     </div>
     <div class="footer__links">

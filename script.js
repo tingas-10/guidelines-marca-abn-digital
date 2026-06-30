@@ -2,6 +2,29 @@
 (function () {
   'use strict';
 
+  /* ---- Theme (light / dark) ---- */
+  const root = document.documentElement;
+  function applyTheme(theme) {
+    root.setAttribute('data-theme', theme);
+    document.querySelectorAll('.theme-img').forEach(function (img) {
+      const src = theme === 'light' ? img.dataset.srcLight : img.dataset.srcDark;
+      if (src && img.getAttribute('src') !== src) img.setAttribute('src', src);
+    });
+    const tt = document.getElementById('themeToggle');
+    if (tt) tt.setAttribute('aria-label', theme === 'light' ? 'Cambiar a tema oscuro' : 'Cambiar a tema claro');
+  }
+  let savedTheme = 'dark';
+  try { savedTheme = localStorage.getItem('abn-theme') || 'dark'; } catch (e) {}
+  applyTheme(savedTheme);
+  const themeToggle = document.getElementById('themeToggle');
+  if (themeToggle) {
+    themeToggle.addEventListener('click', function () {
+      const next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      applyTheme(next);
+      try { localStorage.setItem('abn-theme', next); } catch (e) {}
+    });
+  }
+
   /* ---- Brand prompts (ES / EN) ---- */
   const PROMPTS = {
     es:
