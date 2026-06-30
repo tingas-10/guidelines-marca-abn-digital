@@ -1,0 +1,48 @@
+# ABN Digital — Guía de marca / Brand guidelines
+
+> Resumen de marca legible por modelos de lenguaje. Pasá este link (o pegá este texto) a Claude, ChatGPT, Gemini o Gamma para que generen presentaciones, documentos o contenido respetando la identidad de ABN Digital.
+> Machine-readable brand summary. Give this link (or paste this text) to an AI tool so it produces content that follows ABN Digital's identity.
+
+## Marca / Brand
+- Nombre / Name: ABN Digital
+- Claim (ES): Impulsando el crecimiento digital
+- Claim (EN): Driving digital growth
+- Qué hace / What it does: Impulsa el crecimiento digital de empresas integrando marketing, data y tecnología, transformando atención en resultados medibles. / Drives companies' digital growth by integrating marketing, data and technology, turning attention into measurable results.
+
+## Colores / Colors
+- Tech Green — #3ABD96 — RGB 58,189,150 — COLOR PRINCIPAL / PRIMARY. Acento: datos, CTAs, destacados. Nunca fondo de grandes bloques de texto. / Accent only; never the background of large text blocks.
+- Carbon Black — #232323 — RGB 35,35,35 — Neutro núcleo, fondos oscuros, texto.
+- Deep Blue — #1B1837 — RGB 27,24,55 — Neutro, fondos, confianza.
+- Ash White — #F9F7F2 — RGB 249,247,242 — Neutro claro, fondos claros, texto sobre oscuro.
+- Regla / Rule: usar Ash White, Carbon Black o Deep Blue como base (≥70% de la composición); Tech Green como acento. Mantener alto contraste y legibilidad. / Use the neutrals as the base (≥70%); Tech Green as accent. Keep high contrast.
+
+## Tipografía / Typography
+- Familia / Family: Montserrat (Google Fonts: https://fonts.google.com/specimen/Montserrat)
+- Títulos / Headings: Montserrat Regular o SemiBold
+- Cuerpo / Body: Montserrat Light
+- Destacados / Highlights: Montserrat SemiBold
+- Evitar / Avoid: otras fuentes, tracking amplio, interlineado excesivo, sombras o efectos.
+
+## Tono de voz / Tone of voice
+- Técnico pero humano; claro, preciso y sin complejidad innecesaria; transmite confianza, experiencia e innovación. Español neutro / LATAM.
+- Technical yet human; clear, precise, free of unnecessary complexity; conveys trust, expertise and innovation.
+
+## Valores / Values
+Excelencia · Innovación · Transparencia · Equipo · Agilidad / Excellence · Innovation · Transparency · Team · Agility
+
+## Logo
+- Versiones / Versions: principal, secundario (horizontal), isologotipo, isotipo.
+- Variantes de color / Color variants: color sobre oscuro (ABN blanco + DIGITAL verde), color sobre claro (ABN negro + DIGITAL verde), monocromo blanco, monocromo negro.
+- Área de seguridad / Clear space: 2 × 2 módulos.
+- No hacer / Don't: distorsionar, sombras/efectos, rotar, cambiar color u opacidad, alterar interletrado, aplicar contornos.
+
+## Elementos gráficos / Graphic elements
+Patrón de isotipo, gradientes de marca, Trama I (flujo de datos: líneas verticales), Trama II (enlace), iconografía (Team, Leter, Clientes, Casos de éxito, Trainings). Uso sutil, como fondo o apoyo.
+
+## Estilo visual / Visual style
+Limpio, tecnológico y moderno. Fondos oscuros con acentos verdes, gradientes sutiles de la paleta, mucho aire. Líneas verticales tipo "flujo de datos" como textura.
+
+## Recursos / Resources
+- Guía / Guidelines: https://tingas-10.github.io/guidelines-marca-abn-digital/
+- Datos estructurados / Structured data: brand.json
+- Descargas / Downloads: assets/downloads/abn-digital-marca.zip

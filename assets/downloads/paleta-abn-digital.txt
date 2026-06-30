@@ -1,0 +1,9 @@
+ABN DIGITAL — PALETA DE COLOR
+
+Tech Green  (principal)   HEX #3ABD96   RGB 58, 189, 150
+Carbon Black (neutro)     HEX #232323   RGB 35, 35, 35
+Deep Blue   (neutro)      HEX #1B1837   RGB 27, 24, 55
+Ash White   (neutro)      HEX #F9F7F2   RGB 249, 247, 242
+
+Regla: neutros como base (>=70% de la composicion); Tech Green como acento.
+Tipografia: Montserrat (Titulos Regular/SemiBold, Cuerpo Light, Destacados SemiBold).

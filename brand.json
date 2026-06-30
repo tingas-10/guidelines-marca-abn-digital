@@ -1,0 +1,86 @@
+{
+  "$schema": "https://abndigital.com/brand-schema",
+  "brand": "ABN Digital",
+  "version": "1.0",
+  "updated": "2026-06-29",
+  "claim": { "es": "Impulsando el crecimiento digital", "en": "Driving digital growth" },
+  "about": {
+    "es": "ABN Digital impulsa el crecimiento digital de las empresas a través de una visión integrada que combina marketing, data y tecnología, transformando atención en resultados medibles.",
+    "en": "ABN Digital drives the digital growth of companies through an integrated vision combining marketing, data and technology, turning attention into measurable results."
+  },
+  "vision": {
+    "es": "Ser el partner líder en LATAM en crecimiento digital, integrando marketing, data y tecnología para generar resultados reales, medibles y escalables.",
+    "en": "To be the leading growth partner in LATAM, integrating marketing, data and technology to generate real, measurable and scalable results."
+  },
+  "mission": {
+    "es": "Potenciar el crecimiento de empresas líderes mediante soluciones integradas de marketing, data e inteligencia artificial.",
+    "en": "To boost the growth of leading companies through integrated marketing, data and AI solutions."
+  },
+  "values": {
+    "es": ["Excelencia", "Innovación", "Transparencia", "Equipo", "Agilidad"],
+    "en": ["Excellence", "Innovation", "Transparency", "Team", "Agility"]
+  },
+  "toneOfVoice": {
+    "es": "Técnico pero humano. Claro, preciso y sin complejidad innecesaria; transmite confianza, experiencia e innovación. Español neutro / LATAM.",
+    "en": "Technical yet human. Clear, precise and free of unnecessary complexity; conveys trust, expertise and innovation.",
+    "do": ["Técnico pero claro", "Humano y cercano", "Preciso y orientado a resultados"],
+    "dont": ["Jerga vacía", "Complejidad innecesaria", "Promesas sin respaldo"]
+  },
+  "colors": {
+    "primary": {
+      "name": "Tech Green",
+      "hex": "#3ABD96",
+      "rgb": [58, 189, 150],
+      "role": "Color principal / acento",
+      "meaning": { "es": "Energía, acción, crecimiento y eficiencia.", "en": "Energy, action, growth and efficiency." }
+    },
+    "neutrals": [
+      { "name": "Carbon Black", "hex": "#232323", "rgb": [35, 35, 35], "role": "Núcleo · fondos oscuros y texto", "meaning": { "es": "Autoridad, sofisticación y precisión.", "en": "Authority, sophistication and precision." } },
+      { "name": "Deep Blue", "hex": "#1B1837", "rgb": [27, 24, 55], "role": "Fondos", "meaning": { "es": "Inteligencia, confianza, estabilidad.", "en": "Intelligence, trust, stability." } },
+      { "name": "Ash White", "hex": "#F9F7F2", "rgb": [249, 247, 242], "role": "Fondos claros y texto sobre oscuro", "meaning": { "es": "Orden, simplicidad y equilibrio.", "en": "Order, simplicity and balance." } }
+    ],
+    "usageRule": {
+      "es": "Ash White, Carbon Black o Deep Blue deben ser la base (≥70% de la composición). Tech Green se usa como acento, nunca como fondo de grandes bloques de texto. Mantener siempre buen contraste y legibilidad.",
+      "en": "Ash White, Carbon Black or Deep Blue should be the base (≥70% of the composition). Tech Green is used as an accent, never as the background of large text blocks. Always keep strong contrast and legibility."
+    }
+  },
+  "typography": {
+    "family": "Montserrat",
+    "source": "https://fonts.google.com/specimen/Montserrat",
+    "weights": ["ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black"],
+    "roles": {
+      "headings": "Montserrat Regular / SemiBold",
+      "body": "Montserrat Light",
+      "highlights": "Montserrat SemiBold"
+    },
+    "dont": {
+      "es": ["No reemplazar Montserrat por otra fuente", "No usar tracking/interletrado amplio", "No interlineado excesivo", "No sombras ni efectos"],
+      "en": ["Do not replace Montserrat", "No wide tracking/letter-spacing", "No excessive line-height", "No shadows or effects"]
+    }
+  },
+  "logo": {
+    "versions": ["principal", "secundario (horizontal)", "isologotipo", "isotipo"],
+    "colorVariants": ["color sobre fondo oscuro (ABN blanco + DIGITAL verde)", "color sobre fondo claro (ABN negro + DIGITAL verde)", "monocromo blanco", "monocromo negro"],
+    "clearSpace": { "es": "Margen libre mínimo de 2 × 2 módulos.", "en": "Minimum clear space of 2 × 2 modules." },
+    "rules": {
+      "es": ["No distorsionar ni deformar", "No agregar sombras ni efectos", "No rotar ni cambiar el eje", "No cambiar tono, color u opacidad", "No alterar el interletrado", "No aplicar contornos al logo completo"],
+      "en": ["Do not distort or deform", "No shadows or effects", "Do not rotate or change the axis", "Do not change tone, color or opacity", "Do not alter letter-spacing", "No outlines on the full logo"]
+    },
+    "files": {
+      "principal_dark": "assets/logos/logo-principal-dark.png",
+      "principal_light": "assets/logos/logo-principal-light.png",
+      "secundario_dark": "assets/logos/logo-secundario-dark.png",
+      "isotipo_green_png": "assets/logos/isotipo-green.png",
+      "isotipo_green_svg": "assets/logos/isotipo-green.svg"
+    }
+  },
+  "graphicElements": {
+    "es": ["Patrón de isotipo", "Gradientes de marca", "Trama I (flujo de datos)", "Trama II (enlace)", "Iconografía (Team, Leter, Clientes, Casos de éxito, Trainings)"],
+    "usage": { "es": "Uso sutil, como fondo o apoyo, sin competir con el contenido principal.", "en": "Subtle use, as background or support, without competing with the main content." }
+  },
+  "links": {
+    "guidelines": "https://tingas-10.github.io/guidelines-marca-abn-digital/",
+    "downloads_zip": "assets/downloads/abn-digital-marca.zip",
+    "llms_txt": "llms.txt"
+  }
+}
