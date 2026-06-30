@@ -13,8 +13,8 @@
     const tt = document.getElementById('themeToggle');
     if (tt) tt.setAttribute('aria-label', theme === 'light' ? 'Cambiar a tema oscuro' : 'Cambiar a tema claro');
   }
-  let savedTheme = 'dark';
-  try { savedTheme = localStorage.getItem('abn-theme') || 'dark'; } catch (e) {}
+  let savedTheme = 'light';
+  try { savedTheme = localStorage.getItem('abn-theme') || 'light'; } catch (e) {}
   applyTheme(savedTheme);
   const themeToggle = document.getElementById('themeToggle');
   if (themeToggle) {
