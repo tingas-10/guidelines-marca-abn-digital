@@ -240,8 +240,8 @@ img{max-width:100%;display:block}
 /* ===== GRILLA & ÁREA DE SEGURIDAD ===== */
 .gsd{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden}
 .gsd--wide{margin-bottom:22px}
-.gsd-row{display:grid;grid-template-columns:3fr 2fr;gap:22px}
-.gsd__stage{position:relative;padding:46px 56px}
+.gsd-row{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.gsd__stage{position:relative;padding:40px 60px 48px}
 .gsd__frame{
   position:relative;display:flex;align-items:center;justify-content:center;
   width:fit-content;max-width:100%;margin:0 auto;
@@ -252,20 +252,25 @@ img{max-width:100%;display:block}
     linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
   background-size:26px 26px;background-position:center;
 }
-.gsd__safe{display:inline-flex;align-items:center;justify-content:center;padding:12px;border:1px dashed var(--green);border-radius:2px}
+.gsd__safe{position:relative;display:inline-flex;align-items:center;justify-content:center;padding:12px;border:1px dashed var(--green);border-radius:2px}
 .gsd__logo{display:block;height:74px;width:auto;max-width:100%;position:relative;z-index:1}
-.gsd__logo--wide{height:60px}
-.gsd__logo--iso{height:110px}
-.gsd__dot{position:absolute;width:14px;height:14px;border-radius:50%;background:var(--grid-dot);z-index:2}
-.gsd__dot--t{top:0;left:50%;transform:translate(-50%,-50%)}
-.gsd__dot--b{bottom:0;left:50%;transform:translate(-50%,50%)}
-.gsd__dot--l{left:0;top:50%;transform:translate(-50%,-50%)}
-.gsd__dot--r{right:0;top:50%;transform:translate(50%,-50%)}
-.gsd__lbl{position:absolute;font-size:.66rem;font-weight:700;letter-spacing:.1em;color:var(--green-ink);z-index:2}
-.gsd__lbl--t{top:16px;left:50%;transform:translateX(-50%)}
-.gsd__lbl--b{bottom:16px;left:50%;transform:translateX(-50%)}
-.gsd__lbl--l{left:14px;top:50%;transform:translateY(-50%)}
-.gsd__lbl--r{right:14px;top:50%;transform:translateY(-50%)}
+.gsd__logo--wide{height:58px}
+.gsd__logo--iso{height:112px}
+/* gray dots at the corners of the logo bounding box */
+.gsd__dot{position:absolute;width:13px;height:13px;border-radius:50%;background:var(--grid-dot);z-index:2}
+.gsd__dot--tl{top:0;left:0;transform:translate(-50%,-50%)}
+.gsd__dot--tr{top:0;right:0;transform:translate(50%,-50%)}
+.gsd__dot--bl{bottom:0;left:0;transform:translate(-50%,50%)}
+.gsd__dot--br{bottom:0;right:0;transform:translate(50%,50%)}
+/* dimension labels: 2X clear space on each end + logo dimension in the middle */
+.gsd__lbl{position:absolute;font-size:.64rem;font-weight:700;letter-spacing:.08em;color:var(--green-ink);z-index:3;white-space:nowrap}
+.gsd__lbl--sub{color:var(--text-mute)}
+.gsd__lbl--bl{left:26px;bottom:-24px}
+.gsd__lbl--bc{left:50%;bottom:-24px;transform:translateX(-50%);color:var(--green-ink)}
+.gsd__lbl--br{right:26px;bottom:-24px}
+.gsd__lbl--rt{right:-30px;top:26px}
+.gsd__lbl--rm{right:-30px;top:50%;transform:translateY(-50%);color:var(--green-ink)}
+.gsd__lbl--rb{right:-30px;bottom:26px}
 .gsd__cap{display:flex;flex-direction:column;gap:3px;padding:16px 22px;border-top:1px solid var(--border)}
 .gsd__cap b{font-weight:600}
 .gsd__cap span{font-size:.85rem;color:var(--text-mute);font-weight:300}
