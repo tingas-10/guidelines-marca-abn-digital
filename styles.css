@@ -313,6 +313,7 @@ a.resource-card:hover{border-color:var(--green);transform:translateY(-3px)}
 .dl-group:last-child{margin-bottom:0}
 .dl-group .minihead{margin-bottom:18px}
 .dl-note{color:var(--text-mute);font-size:.88rem;font-weight:300;max-width:720px;margin:-6px 0 18px}
+.download-card .font-prev{font-family:var(--font);font-size:2.6rem;line-height:1;color:var(--black)}
 .download-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 .download-card{display:flex;flex-direction:column;gap:6px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:22px;transition:border-color .2s,transform .15s}
 .download-card:hover{border-color:var(--green);transform:translateY(-3px)}
